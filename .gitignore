@@ -1,0 +1,5 @@
+old/
+*.txt
+*.png
+*.jpg
+0_create_sales_mart.sql
