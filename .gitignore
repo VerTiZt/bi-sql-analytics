@@ -1,6 +1,7 @@
 old/
-git/
-*.txt
 *.png
 *.jpg
 0_create_sales_mart.sql
+.vscode
+temp
+~$*
