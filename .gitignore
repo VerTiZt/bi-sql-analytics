@@ -2,6 +2,48 @@ old/
 *.png
 *.jpg
 0_create_sales_mart.sql
-.vscode
 temp
 ~$*
+
+# виртуальные окружения python
+venv/
+.venv/
+env/
+ENV/
+
+# кэш python и байт-код
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# секреты, токены и переменные окружения
+.env
+.env.*
+config.ini
+secrets.json
+
+# локальные базы данных и дампы
+*.sqlite3
+*.db
+*.sql.gz
+*.dump
+
+# логи и временные выгрузки
+*.log
+logs/
+*.tmp
+*.bak
+
+# настройки ide и редакторов
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# системный мусор ос
+.DS_Store
+Thumbs.db
+desktop.ini
