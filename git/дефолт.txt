@@ -38,3 +38,21 @@ git restore --staged path/to/folder/
 # убрать вообще все добавленные файлы (полная отмена git add .)
 git restore --staged .
 ---
+я решил переименовать репозиторий в гитхабе
+
+1! сначала я меняю его название на гитхабе
+
+2! потом в консоли ввожу:
+# 1. смотрим текущий привязанный адрес (origin)
+git remote -v
+
+# 2. меняем url на новый (замени <новое-имя> на выбранное название)
+# если клонировал по https:
+git remote set-url origin https://github.com/VerTiZt/<новое-имя>.git
+
+# если используешь ssh:
+git remote set-url origin git@github.com:VerTiZt/<новое-имя>.git
+
+# 3. проверяем, что новый адрес успешно применился
+git remote -v
+---
